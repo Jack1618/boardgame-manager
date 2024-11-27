@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## TODO
+
+- homepage
+  - What should we play? -> numero giocatori -> lista giochi match da db
+
 ## Available Scripts
 
 - Primo step -> `npm install`
