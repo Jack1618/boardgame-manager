@@ -1,0 +1,34 @@
+{
+  "boardgames": [
+    {
+      "id": "1",
+      "name": "Splendor",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4
+    },
+    {
+      "id": "2",
+      "name": "Beccato",
+      "minimumPlayers": 2,
+      "maximumPlayers": 8
+    },
+    {
+      "id": "02ca",
+      "name": "Citadels",
+      "minimumPlayers": 2,
+      "maximumPlayers": 5
+    },
+    {
+      "id": "05b2",
+      "name": "Ciao",
+      "minimumPlayers": "5",
+      "maximumPlayers": "7"
+    },
+    {
+      "id": "4f07",
+      "name": "boh",
+      "minimumPlayers": "9",
+      "maximumPlayers": "9"
+    }
+  ]
+}

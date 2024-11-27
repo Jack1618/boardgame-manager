@@ -1,0 +1,72 @@
+/* Keyframe for sliding in from the left */
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-10%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Keyframe for sliding in from the right */
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Slide-in animation classes */
+  .slide-in-left {
+    opacity: 0;
+    animation: slideInFromLeft 1s ease-out forwards;
+    animation-delay: 0.2s;
+  }
+  
+  .slide-in-right {
+    opacity: 0;
+    animation: slideInFromRight 1s ease-out forwards;
+    animation-delay: 0.4s;
+  }
+
+  /* Keyframe for sliding in from the left */
+@keyframes slideDown {
+    0% {
+      transform: translateY(0);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(10%);
+      opacity: 1;
+    }
+  }
+
+  /* Slide-in animation classes */
+  .slide-down {
+    opacity: 0;
+    animation: slideDown 1s ease-out forwards;
+    animation-delay: 0.2s;
+  }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+  animation-delay: 1s; /* Delay the animation by 1 second */
+}
+
+.fade-in-fast {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+  animation-delay: 0.2s; /* Delay the animation by 1 second */
+}

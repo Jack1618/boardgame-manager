@@ -1,13 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: arial;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: transparent;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* global styles */
+html, body {
+  /* overflow-x: hidden;
+  overflow-y: auto;   */
+  /* This hides vertical overflow */
+}
+
+
+ /* Custom Arrow Styling */
+ .arrow {
+  width: 80px;
+  height: 80px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-radius: 4px;
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(45deg, #8b5cf6, #7e22ce);  /* Violet gradient */
+  transform: rotate(45deg);  /* Rotate to make it point downwards */
+  animation: breathe 2s infinite ease-in-out;
+}
+
+/* Breathing (Pulsing) effect */
+@keyframes breathe {
+  0%, 100% {
+    transform: scale(1) rotate(45deg);
+  }
+  50% {
+    transform: scale(1.1) rotate(45deg);  /* Slightly enlarge the arrow */
+  }
+}
+
+
+.arrow.clicked {
+background: linear-gradient(45deg, #0ea5e9, #0284c7);
+}
+
+/* Style the unordered list */
+.custom-list {
+list-style-type: disc;   /* Set bullet points */
+padding-left: 20px;      /* Add padding on the left to create space for bullets */
+margin: 0;               /* Remove default margin */
+}
+
+/* Style the list items */
+.custom-list li {
+margin-bottom: 8px;      /* Add space between list items */
 }
