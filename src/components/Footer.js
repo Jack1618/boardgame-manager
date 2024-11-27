@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="w-full bg-gray-800 text-white text-center py-4">
       <p className="text-sm">
-        © {currentYear} Giacomo Calcara. All rights reserved.
+        © {currentYear} Giacomo Calcara & Giuseppe Ernandez. All rights reserved.
       </p>
     </footer>
   );
