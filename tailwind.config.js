@@ -7,7 +7,11 @@ module.exports = {
     './public/index.html', // Include index.html (if you're using it)
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-dark-teal': '#00403D', // Custom color name and its hex value
+      },
+    },
   },
   plugins: [],
   safelist: [

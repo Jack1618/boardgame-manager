@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 const apiUrl = process.env.REACT_APP_API_URL;
 
-export default function Header(){
+export default function BoardGames(){
 
     
     const [boardgames, setboardgames] = useState([]);

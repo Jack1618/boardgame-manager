@@ -14,13 +14,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/* global styles */
-html, body {
-  /* overflow-x: hidden;
-  overflow-y: auto;   */
-  /* This hides vertical overflow */
-}
-
 
  /* Custom Arrow Styling */
  .arrow {
@@ -63,4 +56,24 @@ margin: 0;               /* Remove default margin */
 /* Style the list items */
 .custom-list li {
 margin-bottom: 8px;      /* Add space between list items */
+}
+
+
+.svg-background {
+  width: 100%;
+  height: 100vh; /* Adjust height as needed */
+  background-image: url('../public/horsecard.svg');
+  background-repeat: repeat;
+  background-size: 1000px 1000px;  /* Set both width and height to 50px */
+}
+
+/* Media query for smaller screens (e.g., screens less than 768px wide) */
+@media (max-width: 768px) {
+  .svg-background {
+    background-size: 500px 500px;  /* Smaller size for smaller screens */
+  }
+}
+
+.background-img {
+  background:linear-gradient(to bottom, #00403D, #0e6d68)
 }
